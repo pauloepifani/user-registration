@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+ 
+form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 14px;
+    background-color: white;
+    width: 100%;
+}
+ 
+h1 {
+	text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    background-color: black;
+    text-shadow: 5px 5px 5px black;
+}
+ 
+input {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    max-width: 200px;
+}
+ 
+input:hover, input:focus {
+    background-color: #e4e4e4;
+    color: black;
+}
+
+#login-submit {
+	cursor: pointer;
+}
+ 
+form label {
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.form-area {
+	background: #ffffff;
+	padding: 10px;
+	margin: 20px;
+	text-align: center;
+	border: 1px solid;
+	border-radius: 5px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.message {
+	color: red;
+}
