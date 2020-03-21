@@ -13,10 +13,10 @@
 			<property name="javax.persistence.jdbc.driver"
 				value="com.mysql.cj.jdbc.Driver" />
 			<property name="javax.persistence.jdbc.url"
-				value="jdbc:mysql://sy2wazbj0zu4bcyg:qfm0xo3t3i28sr7j@yhrz9vns005e0734.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/oc3pmpapd6mnkr9c" />
-			<property name="javax.persistence.jdbc.user" value="sy2wazbj0zu4bcyg" />
+				value="jdbc:mysql://localhost:3306/pitang_user_registration?serverTimezone=America/Sao_Paulo" />
+			<property name="javax.persistence.jdbc.user" value="root" />
 			<property name="javax.persistence.jdbc.password"
-				value="qfm0xo3t3i28sr7j" />
+				value="root" />
 			<property name="hibernate.dialect"
 				value="org.hibernate.dialect.MySQL5Dialect" />
 			<property name="hibernate.hbm2ddl.auto" value="update" />
